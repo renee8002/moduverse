@@ -7,7 +7,6 @@ fn function() {
     println!("called `function()`");
 }
 fn main() {
-    println!("Hello, world!");
     test::function();
     function();
     test::indirect_access();
